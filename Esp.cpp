@@ -9,7 +9,7 @@ void RenderESP(ID2D1DeviceContext* pRenderTarget, ID2D1SolidColorBrush* pBrush, 
 
         // Calculate feet position
         Vector3 feet = player.head;
-        feet.z -= 4.5f;  // Subtract 4.5 units from the head's z-coordinate
+        feet.z -= 4.5f;
 
         Vector2 screenPosHead;
         Vector2 screenPosFeet;
